@@ -18,7 +18,7 @@
 &kp LEFT_SHIFT    &kp Z     &kp X    &kp C      &kp V    &kp B                           &kp N      &kp M     &kp COMMA  &kp DOT  &kp FSLH  &kp BSLH
 &kp LEFT_CONTROL  &kp RBKT  &mo RSE  &kp SPACE  &kp TAB                                             &kp PLUS  &kp EQUAL  &kp RET  &mo LWR   &kp HOME
                                                          &kp SPACE  &kp GRAVE  &kp BSPC  &kp SPACE
-                                                         &kp BSPC   &kp GRAVE  &kp BSPC  &kp GRAVE
+                                                         &kp SPACE  &kp GRAVE  &kp BSPC  &kp GRAVE
             >;
         };
 
