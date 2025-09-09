@@ -3,3 +3,7 @@ config SHIELD_DACTYL_MANUFORM_5x6_LEFT
 
 config SHIELD_DACTYL_MANUFORM_5x6_RIGHT
     def_bool $(shields_list_contains,dactyl_manuform_5x6_right)
+
+# No whitespace after the comma or in your part name!
+config SHIELD_DACTYL_MANUFORM_5x6__DONGLE
+    def_bool $(shields_list_contains,SHIELD_DACTYL_MANUFORM_5x6__DONGLE)

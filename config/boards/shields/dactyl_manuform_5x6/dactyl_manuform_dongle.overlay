@@ -1,0 +1,18 @@
+/*
+ * Copyright (c) 2022 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+// This file tells the ZMK build system that this shield has no keyboard matrix.
+// This is essential for building a receiver/dongle.
+/ {
+    chosen {
+        zmk,kscan = <&no_kscan>;
+    };
+};
+
+no_kscan: no_kscan {
+    compatible = "zmk,kscan-none";
+};
+

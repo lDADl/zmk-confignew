@@ -1,10 +1,25 @@
+if SHIELD_SHIELD_DACTYL_MANUFORM_5x6__DONGLE
+
+config ZMK_KEYBOARD_NAME
+    default "dactyl_manuform_dongle"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+config ZMK_SPLIT
+    default y
+
+config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
+    default 2
+
+endif
 if SHIELD_DACTYL_MANUFORM_5x6_LEFT
 
     config ZMK_KEYBOARD_NAME
         default "TAIKO-DACTYL-L"
 
     config ZMK_SPLIT_BLE_ROLE_CENTRAL
-        default y
+        default n
 
 endif
 
@@ -12,6 +27,8 @@ if SHIELD_DACTYL_MANUFORM_5x6_RIGHT
 
     config ZMK_KEYBOARD_NAME
         default "TAIKO-DACTYL-R"
+    config ZMK_SPLIT_BLE_ROLE_CENTRAL
+        default n
 
 endif
 
