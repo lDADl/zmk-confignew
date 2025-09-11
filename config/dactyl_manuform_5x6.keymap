@@ -12,31 +12,31 @@
 
         default_layer {
             bindings = <
-&kp ESC           &kp N1        &kp N2  &kp N3  &kp N4        &kp N5                              &kp N6     &kp N7        &kp N8     &kp N9   &kp N0        &kp BSPC
-&kp TAB           &kp Q         &kp W   &kp E   &kp R         &kp T                               &kp Y      &kp U         &kp I      &kp O    &kp P         &kp BACKSLASH
-&kp CAPS          &kp A         &kp S   &kp D   &kp F         &kp G                               &kp H      &kp J         &kp K      &kp L    &kp SEMI      &kp ENTER
-&kp LEFT_SHIFT    &kp Z         &kp X   &kp C   &kp V         &kp B                               &kp N      &kp M         &kp COMMA  &kp DOT  &kp QUESTION  &kp LEFT_SHIFT
-&kp LEFT_CONTROL  &kp LEFT_WIN  &kp A   &kp A   &kp LEFT_ALT                                                 &kp QUESTION  &kp COMMA  &kp A    &kp A         &kp A
-                                                              &kp SPACE  &kp BACKSPACE  &kp BSPC  &kp SPACE
-                                                              &kp A      &kp B          &kp B     &kp A
+&kp ESC           &kp N1        &kp N2  &kp N3  &kp N4        &kp N5                                              &kp N6             &kp N7        &kp N8     &kp N9   &kp N0     &kp BSPC
+&kp TAB           &kp Q         &kp W   &kp E   &kp R         &kp T                                               &kp Y              &kp U         &kp I      &kp O    &kp P      &kp BACKSLASH
+&kp CAPS          &kp A         &kp S   &kp D   &kp F         &kp G                                               &kp H              &kp J         &kp K      &kp L    &kp SEMI   &kp ENTER
+&kp LEFT_SHIFT    &kp Z         &kp X   &kp C   &kp V         &kp B                                               &kp N              &kp M         &kp COMMA  &kp DOT  &kp SLASH  &kp LEFT_SHIFT
+&kp LEFT_CONTROL  &kp LEFT_WIN  &kp A   &kp A   &kp LEFT_ALT                                                                         &kp QUESTION  &kp COMMA  &kp A    &kp A      &kp A
+                                                              &kp SPACE  &mo 1                  &mo 2             &kp SPACE
+                                                              &kp LPAR   &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
             >;
         };
 
         lower_layer {
             bindings = <
-&kp ESC    &kp N1    &kp N2   &kp N3     &kp N4   &kp N5                         &kp N6     &kp N7    &kp N8     &kp N9   &kp N0    &kp BSPC
-&kp TAB    &kp Q     &kp W    &kp E      &kp R    &kp T                          &kp Y      &kp U     &kp I      &kp O    &kp P     &kp MINUS
-&kp LSHFT  &kp A     &kp S    &kp D      &kp F    &kp G                          &kp H      &kp J     &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LCTRL  &kp Z     &kp X    &kp C      &kp V    &kp B                          &kp N      &kp M     &kp COMMA  &kp DOT  &kp FSLH  &kp BSLH
-&kp LBKT   &kp RBKT  &mo RSE  &kp SPACE  &kp TAB                                            &kp PLUS  &kp EQUAL  &kp RET  &mo LWR   &kp HOME
-                                                  &kp BSPC  &kp GRAVE  &kp BSPC  &kp GRAVE
-                                                  &kp BSPC  &kp GRAVE  &kp BSPC  &kp GRAVE
+&kp ESC         &kp NUMBER_6  &kp N7   &kp N8     &kp N9   &kp N0                               &kp N6     &kp N7    &kp N8     &kp N9          &kp N0          &kp BSPC
+&kp TAB         &kp Q         &kp W    &kp E      &kp R    &kp MINUS                            &kp Y      &kp U     &kp I      &kp O           &kp P           &kp MINUS
+&kp LSHFT       &kp A         &kp S    &kp D      &kp A    &kp EQUAL                            &kp H      &kp J     &kp K      &kp L           &kp SEMI        &kp SQT
+&kp LEFT_SHIFT  &kp Z         &kp X    &kp C      &kp V    &kp DEL                              &kp N      &kp M     &kp COMMA  &kp DOT         &kp UP_ARROW    &kp BSLH
+&kp LBKT        &kp RBKT      &mo RSE  &kp SPACE  &kp TAB                                                  &kp PLUS  &kp EQUAL  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT
+                                                           &kp BSPC   &kp GRAVE       &kp BSPC  &kp GRAVE
+                                                           &kp BSPC   &kp LEFT_SHIFT  &kp BSPC  &kp GRAVE
             >;
         };
 
         raise_layer {
             bindings = <
-&kp ESC    &kp N1    &kp N2   &kp N3     &kp N4   &kp N5                         &kp N6     &kp N7    &kp N8     &kp N9   &kp N0    &kp BSPC
+&kp TILDE  &kp F1    &kp F2   &kp F3     &kp F4   &kp F5                         &kp F6     &kp F7    &kp F8     &kp F9   &kp F10   &kp F11
 &kp TAB    &kp Q     &kp W    &kp E      &kp R    &kp T                          &kp Y      &kp U     &kp I      &kp O    &kp P     &kp MINUS
 &kp LSHFT  &kp A     &kp S    &kp D      &kp F    &kp G                          &kp H      &kp J     &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LCTRL  &kp Z     &kp X    &kp C      &kp V    &kp B                          &kp N      &kp M     &kp COMMA  &kp DOT  &kp FSLH  &kp BSLH
